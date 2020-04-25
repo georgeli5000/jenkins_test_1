@@ -28,14 +28,7 @@ pipeline {
                                 echo "Running the unit test..."
                            }
                            }
-                            stage('Integration test') {
-                              agent {
 
-                                    }
-                              steps {
-                                echo "Running the integration test..."
-                              }
-                           }
                            }
                            }
               }
